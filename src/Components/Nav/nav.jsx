@@ -30,25 +30,25 @@ export default function Nav() {
 
             <li>
               <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px]'>
-                Home
+                About us
               </Link>
             </li>
 
             <li>
               <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px]'>
-                Home
+                Features
               </Link>
             </li>
 
             <li>
               <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px]'>
-                Home
+                Services
               </Link>
             </li>
 
             <li>
               <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px]'>
-                Home
+                FAQs
               </Link>
             </li>
 
@@ -114,7 +114,7 @@ export default function Nav() {
                 onClick={() => setOpen(false)}
                 className='text-textlight dark:text-textdark font-worksans font-medium text-[18px]'
               >
-                Home
+                About us
               </Link>
             </li>
 
@@ -124,7 +124,7 @@ export default function Nav() {
                 onClick={() => setOpen(false)}
                 className='text-textlight dark:text-textdark font-worksans font-medium text-[18px]'
               >
-                Home
+                Features
               </Link>
             </li>
 
@@ -134,7 +134,7 @@ export default function Nav() {
                 onClick={() => setOpen(false)}
                 className='text-textlight dark:text-textdark font-worksans font-medium text-[18px]'
               >
-                Home
+                Services
               </Link>
             </li>
 
@@ -144,7 +144,7 @@ export default function Nav() {
                 onClick={() => setOpen(false)}
                 className='text-textlight dark:text-textdark font-worksans font-medium text-[18px]'
               >
-                Home
+                FAQs
               </Link>
             </li>
 
