@@ -32,7 +32,7 @@ const footer = () => {
             </div>
 
 
-            <div className='flex flex-col md:flex-row gap-10 justify-between items-center'>
+            <div className='flex flex-col md:flex-row gap-10 justify-between md:items-start items-center'>
                 <div className='flex flex-row gap-10 '>
                   <div className='flex flex-col gap-5 justify-center items-start'>
                     <h2 className='font-medium font-worksans text-white text-[18px]'>Links</h2>
