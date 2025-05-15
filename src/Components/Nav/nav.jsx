@@ -59,14 +59,14 @@ export default function Nav() {
 
        
         <div className='hidden lg:flex gap-5 items-center'>
-          <div className='flex items-center gap-2'>
+          {/* <div className='flex items-center gap-2'>
             <TbWorld className='w-[24px] h-[24px] text-textlight dark:text-textdark' />
             <select className='bg-transparent text-textlight dark:text-textdark font-worksans font-medium text-[20px] outline-none'>
               <option>ENG</option>
               <option>EN</option>
               <option>FR</option>
             </select>
-          </div>
+          </div> */}
           <button className='bg-universal w-[160px] h-[50px] text-white rounded-[15px] text-[18px]'>
             Contact Us
           </button>
@@ -152,14 +152,14 @@ export default function Nav() {
         </ul>
 
         <div className='flex flex-col gap-4 px-5 mt-4'>
-          <div className='flex items-center gap-2'>
+          {/* <div className='flex items-center gap-2'>
             <TbWorld className='w-[24px] h-[24px] text-textlight dark:text-textdark' />
             <select className='bg-transparent text-textlight dark:text-textdark font-worksans font-medium text-[18px] outline-none'>
               <option>ENG</option>
               <option>EN</option>
               <option>FR</option>
             </select>
-          </div>
+          </div> */}
           <button className='bg-universal w-full h-[45px] text-white rounded-[12px] text-[16px]'>
             Contact Us
           </button>

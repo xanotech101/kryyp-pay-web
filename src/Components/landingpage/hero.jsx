@@ -40,8 +40,8 @@ const Hero = () => {
             </div>
           </div>
 
-          <img src="/heroimage.svg" alt="" className='w-full h-[60%] dark:hidden' />
-           <img src="/herodark.svg" alt="" className='w-full h-[60%] hidden dark:block' />
+          <img src="/heroimage.svg" alt="" className='w-full h-[60%] dark:hidden mb-[-100px] md:mb-0' />
+           <img src="/herodark.svg" alt="" className='w-full h-[60%] hidden dark:block mb-[-100px] md:mb-0' />
         </div>
       </div>
     </div>
