@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import React from 'react'
 import { GrTransaction } from "react-icons/gr";
 import { MdSecurity } from "react-icons/md";
@@ -8,13 +8,13 @@ const About = () => {
   return (
     <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-32 md:gap-15 bg-white dark:bg-black min-h-[150vh] xl:mt-[-150px] px-4 md:px-0 max-w-[1440px] mx-auto overflow-hidden">
       <div className="relative flex justify-start items-center">
-        <div className="absolute bg-universal rounded-[10px] w-full max-w-[320px] md:max-w-[520px] h-[300px] md:h-[526px] mt-58" />
+        <div className="absolute bg-universal rounded-[10px] w-full max-w-[280px] md:max-w-[520px] h-[300px] md:h-[526px] mt-58" />
 
        
         <img
           src="/aboutimage.svg"
           alt=""
-          className="relative w-full max-w-[328px] md:max-w-[528px] h-auto z-10 md:left-36 left-15"
+          className="relative w-full max-w-[290px] md:max-w-[528px] h-auto z-10 md:left-36 left-15"
         />
       </div>
 

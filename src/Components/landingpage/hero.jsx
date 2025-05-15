@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import React from 'react';
 import Background from '../background/background';
 
@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="absolute top-7/12 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
         <div className='flex flex-col gap-20 items-center'>
           <div className='flex flex-col gap-5 items-center'>
-            <p className='w-[321px] h-[30px] rounded-[15px] bg-[#3805F250] text-universal text-[14px] font-worksans font-medium place-content-center'>
+            <p className='md:w-[321px] md:h-[30px] rounded-[15px] bg-[#3805F250] text-universal text-[14px] font-worksans font-medium place-content-center px-9 py-3 md:px-0 md:py-0'>
               Future of cryptocurrency
             </p>
             <h1 className='text-[50px] text-textlight dark:text-textdark font-worksans font-semibold'>
