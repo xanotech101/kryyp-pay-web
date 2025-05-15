@@ -18,7 +18,7 @@ const Services = () => {
   };
 
   return (
-    <div className='flex flex-col justify-center items-center bg-white dark:bg-black px-4 md:px-15 pt-32'>
+    <div className='flex flex-col justify-center items-center bg-white dark:bg-black px-4 md:px-15 pt-32 max-w-[1440px] mx-auto'>
       <p className="bg-[#3805F250] px-4 py-1 font-worksans text-universal text-[14px] rounded-[80px] font-medium">
         FAQs
       </p>

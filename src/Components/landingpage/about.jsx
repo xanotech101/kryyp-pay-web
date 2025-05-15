@@ -6,17 +6,16 @@ import { FaCreditCard } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-32 md:gap-15 bg-white dark:bg-black min-h-[150vh] xl:mt-[-150px] px-4 md:px-0 max-w-[1440px] mx-auto overflow-hidden">
-      <div className="relative flex justify-start items-center">
-        <div className="absolute bg-universal rounded-[10px] w-full max-w-[280px] md:max-w-[520px] h-[300px] md:h-[526px] mt-58" />
-
+    <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-32 md:gap-15 bg-white dark:bg-black px-4 md:px-0 max-w-[1440px] mx-auto overflow-hidden">
+      
+        
        
         <img
-          src="/aboutimage.svg"
+          src="/about.svg"
           alt=""
-          className="relative w-full max-w-[290px] md:max-w-[528px] h-auto z-10 md:left-36 left-15"
+          className=" w-full h-auto"
         />
-      </div>
+     
 
       
       <div className="flex flex-col gap-5 xl:pr-15 items-center xl:items-start text-center xl:text-left">

@@ -7,11 +7,11 @@ import Link from 'next/link';
 
 const footer = () => {
   return (
-    <div className='flex flex-col justify-center items-center bg-universal gap-10 py-10 px-15'>
+    <div className='flex flex-col justify-center items-center bg-universal gap-10 py-10 px-15 max-w-[1440px] mx-auto'>
         <div className='flex flex-col xl:flex-row justify-between gap-10 items-center md:items-start' >
             <div className='flex flex-col justify-center items-center md:items-start'>
                 <img src="/KRYPPAYdark.svg" alt="" />
-                <p className='w-[486px] text-center md:text-start text-white font-worksans text-[16px] '>Simplifying crypto payments for everyone. Send, receive, and convert crypto effortlessly with KRYPPAY—secure, fast, and reliable.</p>
+                <p className='md:w-[486px] text-center md:text-start text-white font-worksans text-[16px] '>Simplifying crypto payments for everyone. Send, receive, and convert crypto effortlessly with KRYPPAY—secure, fast, and reliable.</p>
                 <div className='flex flex-row gap-5'>
                    <div className='w-[30px] h-[30px] rounded-[50%] bg-[#FFFFFF40] place-items-center place-content-center'>
                      <FaInstagram className='text-white'/>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const features = () => {
     return (
-        <div className='flex flex-col justify-center items-center bg-white dark:bg-black xl:pt-0 pt-20 px-4 md:px-15'>
+        <div className='flex flex-col justify-center items-center bg-white dark:bg-black xl:pt-0 pt-20 px-4 md:px-15 max-w-[1440px] mx-auto'>
             <p className="bg-[#3805F250] px-4 py-1 font-worksans text-universal text-[14px] rounded-[80px] font-medium">
                 Features
             </p>
