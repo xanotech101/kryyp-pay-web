@@ -6,7 +6,7 @@ import { FaCreditCard } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-32 md:gap-15 bg-white dark:bg-black px-4 md:px-0 max-w-[1440px] mx-auto overflow-hidden">
+    <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-15  bg-white dark:bg-black px-4 md:px-0 max-w-[1440px] mx-auto overflow-hidden">
       
         
        

@@ -12,7 +12,7 @@ const trusties = () => {
     return (
         <div className="flex flex-col justify-between items-center bg-white dark:bg-black px-4 md:px-15 py-10 max-w-[1440px] mx-auto">
             <h1 className='font-worksans font-medium text-[20px] text-textlight dark:text-textdark '>Trusties</h1>
-             <div className="flex flex-row items-center justify-between  w-full h-[100px] ">
+             <div className=" items-center w-full h-[100px] grid grid-cols-3 md:grid-cols-6 ">
         {images.map((img, index) => (
             <img
             key={index}
