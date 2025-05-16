@@ -18,7 +18,7 @@ const About = () => {
      
 
       
-      <div className="flex flex-col gap-5 xl:pr-15 items-center xl:items-start text-center xl:text-left">
+      <div className="flex flex-col gap-5 xl:pr-15 items-start text-left">
         <p className="bg-[#3805F250] px-4 py-1 font-worksans rounded text-universal text-[14px] font-medium">
           About us
         </p>
@@ -30,29 +30,29 @@ const About = () => {
         </p>
 
         <div className="flex flex-col gap-6">
-          <div className="flex flex-col xl:flex-row gap-5 items-center">
+          <div className="flex flex-row gap-5 items-start md:items-center">
             <div className='w-[50px] h-[50px] rounded-[50%] bg-[#A9A9A950] flex justify-center items-center'>
                   <GrTransaction className='text-universal'/>
             </div>
-            <p className="text-textlight dark:text-textdark font-worksans font-medium text-[20px]">
+            <p className="text-textlight dark:text-textdark font-worksans font-medium text-[15px] md:text-[20px]">
               Instant crypto to naira Conversion. No delays, no stress.
             </p>
           </div>
 
-          <div className="flex flex-col xl:flex-row gap-5 items-center">
+          <div className="flex flex-row gap-5 items-start">
           <div className='w-[50px] h-[50px] rounded-[50%] bg-[#A9A9A950] flex justify-center items-center'>
                   <FaCreditCard  className='text-universal'/>
             </div>
-            <p className="text-textlight dark:text-textdark font-worksans font-medium text-[20px]">
+            <p className="text-textlight dark:text-textdark font-worksans font-medium text-[15px] md:text-[20px]">
               Virtual Cards for payments. Spend anywhere, anytime.
             </p>
           </div>
 
-          <div className="flex flex-col xl:flex-row gap-5 items-center">
+          <div className="flex flex-row gap-5 items-start">
           <div className='w-[50px] h-[50px] rounded-[50%] bg-[#A9A9A950] flex justify-center items-center'>
                   <MdSecurity className='text-universal'/>
             </div>
-            <p className="text-textlight dark:text-textdark font-worksans font-medium text-[20px]">
+            <p className="text-textlight dark:text-textdark font-worksans font-medium text-[15px] md:text-[20px]">
              Top-Level Security: Google 2FA, biometric authentication, and <br></br>encrypted transactions.
             </p>
           </div>
