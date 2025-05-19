@@ -57,7 +57,7 @@ const services = () => {
 
 
 
-            <img src="/iphone 13.svg" alt="" />
+            <img src="/iphone13.svg" alt="" />
            
 
       </div>
