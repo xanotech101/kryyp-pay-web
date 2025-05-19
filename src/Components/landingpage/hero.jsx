@@ -38,7 +38,7 @@ const Hero = () => {
                 </div>
               </button>
             </div>
-          </div>add 
+          </div>
 
           <img src="/heroimage.svg" alt="" className='w-full h-[40vh] md:h-[60%] dark:hidden mt-10 md:mt-0' />
            <img src="/herodark.svg" alt="" className='w-full h-[40vh] md:h-[60%] hidden dark:block mt-10 md:mt-0' />
