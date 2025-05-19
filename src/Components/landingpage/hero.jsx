@@ -4,13 +4,13 @@ import Background from '../background/background';
 
 const Hero = () => {
   return (
-    <div className="relative w-full xl:h-[120vh] h-[155vh] md:h-[130vh] min-h-screen overflow-hidden max-w-[1440px] mx-auto">
+    <div className="relative w-full xl:h-[120vh] h-[170vh] md:h-[130vh] min-h-screen overflow-hidden max-w-[1440px] mx-auto">
       <Background />
 
-      <div className="absolute top-6/12 md:top-7/12 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
-        <div className='flex flex-col gap-20 items-center'>
+      <div className="absolute top-7/12 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
+        <div className='flex flex-col md:gap-10 gap-0 items-center'>
           <div className='flex flex-col gap-5 items-center'>
-            <p className='md:w-[321px] md:h-[30px] rounded-[15px] bg-[#3805F250] text-universal text-[10px] md:text-[14px] font-worksans font-medium place-content-center px-9 py-3 md:px-0 md:py-0'>
+            <p className='md:w-[321px] md:h-[30px] rounded-[15px] bg-[#3805F250] text-universal text-[10px] md:text-[14px] font-worksans font-medium place-content-center  py-3 md:px-0 md:py-0'>
               Future of cryptocurrency
             </p>
             <h1 className='md:text-[50px] text-[40px] text-textlight dark:text-textdark font-worksans font-semibold'>
@@ -38,10 +38,10 @@ const Hero = () => {
                 </div>
               </button>
             </div>
-          </div>
+          </div>add 
 
-          <img src="/heroimage.svg" alt="" className='w-full h-[60%] dark:hidden' />
-           <img src="/herodark.svg" alt="" className='w-full h-[60%] hidden dark:block' />
+          <img src="/heroimage.svg" alt="" className='w-full h-[40vh] md:h-[60%] dark:hidden mt-10 md:mt-0' />
+           <img src="/herodark.svg" alt="" className='w-full h-[40vh] md:h-[60%] hidden dark:block mt-10 md:mt-0' />
         </div>
       </div>
     </div>
