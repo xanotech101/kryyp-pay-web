@@ -4,7 +4,7 @@ import Background from '../background/background';
 
 const Hero = () => {
   return (
-    <div className="relative w-full xl:h-[120vh] h-[170vh] md:h-[130vh] min-h-screen overflow-hidden max-w-[1440px] mx-auto">
+    <div className="relative w-full xl:h-[120vh] h-[160vh] md:h-[130vh] min-h-screen overflow-hidden max-w-[1440px] mx-auto">
       <Background />
 
       <div className="absolute top-7/12 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
