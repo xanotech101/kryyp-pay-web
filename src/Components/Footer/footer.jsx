@@ -59,20 +59,20 @@ const footer = () => {
                 <div className="flex flex-col gap-5 justify-center items-start">
                      <h2 className='font-medium font-worksans text-white text-[18px]'>Downloads</h2>
                       <div className='flex flex-col gap-5'>
-              <button className='cursor-pointer flex flex-row gap-1 items-center justify-center w-[200px] h-[50px] rounded-[6px] bg-black'>
+              <button className='cursor-pointer flex flex-row gap-1 items-center justify-center w-[200px] h-[50px] rounded-[6px] bg-white'>
                 <img src='/Playstore.svg' alt='logo' className='w-[20px] h-[20px]' />
                 <div className='flex flex-col justify-center items-start'>
-                  <p className='text-[10px] font-worksans font-light text-white'>Get the App</p>
-                  <p className='text-[14px] dark:text-textdark font-worksans font-medium text-white'>Google Play</p>
+                  <p className='text-[10px] font-worksans font-light text-black'>Get the App</p>
+                  <p className='text-[14px] dark:text-textdark font-worksans font-medium text-black'>Google Play</p>
                 </div>
               </button>
 
             
-              <button className='cursor-pointer flex flex-row gap-1 items-center justify-center w-[200px] h-[50px] rounded-[6px] bg-black'>
-                <img src='/Applestore.svg' alt='logo' className='w-[20px] h-[20px]' />
+              <button className='cursor-pointer flex flex-row gap-1 items-center justify-center w-[200px] h-[50px] rounded-[6px] bg-white'>
+                <img src='/Appleblack.svg' alt='logo' className='w-[20px] h-[20px]' />
                 <div className='flex flex-col justify-center items-start'>
-                  <p className='text-[10px] font-worksans font-light text-white'>Get the App</p>
-                  <p className='text-[14px] dark:text-textdark font-worksans font-medium text-white'>AppleStore</p>
+                  <p className='text-[10px] font-worksans font-light text-black'>Get the App</p>
+                  <p className='text-[14px] dark:text-textdark font-worksans font-medium text-black'>AppleStore</p>
                 </div>
               </button>
             </div>

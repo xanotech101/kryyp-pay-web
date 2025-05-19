@@ -1,20 +1,20 @@
-"use client"
+// "use client"
 import React from 'react';
 import Background from '../background/background';
 
 const Hero = () => {
   return (
-    <div className="relative w-full xl:h-[120vh] h-[160vh] md:h-[130vh] min-h-screen overflow-hidden max-w-[1440px] mx-auto">
+    <div className="relative w-full h-[140vh] xl:h-[150vh] min-h-screen overflow-hidden max-w-[1440px] mx-auto">
       <Background />
 
-      <div className="absolute top-7/12 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
-        <div className='flex flex-col md:gap-20 gap-0 items-center'>
-          <div className='flex flex-col gap-5 items-center'>
+      <div className="absolute top-24 md:top-32 left-0 w-full h-full flex flex-col justify-center items-center text-white px-[15px]">
+        <div className='flex flex-col md:gap-20 gap-0 items-center w-full '>
+          <div className='flex flex-col gap-5 items-center text-center'>
             <p className='md:w-[321px] md:h-[30px] rounded-[15px] bg-[#3805F250] text-universal text-[10px] md:text-[14px] font-worksans font-medium place-content-center  py-3 md:px-0 md:py-0'>
               Future of cryptocurrency
             </p>
             <h1 className='md:text-[50px] text-[40px] text-textlight dark:text-textdark font-worksans font-semibold'>
-              Seamless <span className='text-universal'>Crypto-to-Naira</span> Payments in Seconds!
+              Seamless <span className='text-universal'>Crypto-to-Naira</span><br/>Payments in Seconds!
             </h1>
             <p className='text-[24px] text-textlight dark:text-textdark font-worksans font-medium'>
               Send, receive, and convert crypto to Naira instantly with low fees, high security, and zero delays.

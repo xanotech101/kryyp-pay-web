@@ -3,14 +3,14 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { TbWorld } from "react-icons/tb";
-import { HiMenuAlt3 } from 'react-icons/hi';
+import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from 'react-icons/io5';
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className='bg-lightbg dark:bg-darkbg w-full px-5 py-4 relative z-50'>
+    <nav className='fixed bg-lightbg dark:bg-darkbg w-full px-5 py-4 xl:relative z-50'>
       <div className='flex justify-between items-center max-w-[1440px] mx-auto'>
         
         <div>
@@ -74,8 +74,8 @@ export default function Nav() {
 
        
         <div className='lg:hidden'>
-          <HiMenuAlt3
-            size={30}
+          <GiHamburgerMenu
+            size={25}
             className='text-textlight dark:text-textdark cursor-pointer'
             onClick={() => setOpen(true)}
           />
