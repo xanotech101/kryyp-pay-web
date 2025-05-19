@@ -8,7 +8,7 @@ const Hero = () => {
       <Background />
 
       <div className="absolute top-7/12 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
-        <div className='flex flex-col md:gap-10 gap-0 items-center'>
+        <div className='flex flex-col md:gap-20 gap-0 items-center'>
           <div className='flex flex-col gap-5 items-center'>
             <p className='md:w-[321px] md:h-[30px] rounded-[15px] bg-[#3805F250] text-universal text-[10px] md:text-[14px] font-worksans font-medium place-content-center  py-3 md:px-0 md:py-0'>
               Future of cryptocurrency
