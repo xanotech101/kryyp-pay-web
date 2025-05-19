@@ -11,7 +11,7 @@ export default function Nav() {
 
   return (
     <nav className='fixed bg-lightbg dark:bg-darkbg w-full px-5 py-4 xl:relative z-50'>
-      <div className='flex justify-between items-center max-w-[1440px] mx-auto'>
+      <div className='flex justify-between items-center max-w-[1440px] bg-lightbg dark:bg-darkbg mx-auto'>
         
         <div>
           <img src='/KRYPPAYlogo.svg' alt='logo' width={100} height={100} className='dark:hidden' />
@@ -76,7 +76,7 @@ export default function Nav() {
         <div className='lg:hidden'>
           <GiHamburgerMenu
             size={25}
-            className='text-textlight dark:text-textdark cursor-pointer'
+            className='text-textlight dark:text-textdark place-items-center place-content-center cursor-pointer'
             onClick={() => setOpen(true)}
           />
         </div>
