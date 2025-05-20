@@ -102,7 +102,7 @@ export default function Nav() {
               <Link
                 href='/'
                 onClick={() => setOpen(false)}
-                className='text-textlight dark:text-textdark font-worksans font-medium text-[18px]'
+                className='text-textdark font-worksans font-medium text-[18px]'
               >
                 Home
               </Link>
@@ -112,7 +112,7 @@ export default function Nav() {
               <Link
                 href='/'
                 onClick={() => setOpen(false)}
-                className='text-textlight dark:text-textdark font-worksans font-medium text-[18px]'
+                className='text-textdark font-worksans font-medium text-[18px]'
               >
                 About us
               </Link>
@@ -122,7 +122,7 @@ export default function Nav() {
               <Link
                 href='/'
                 onClick={() => setOpen(false)}
-                className='text-textlight dark:text-textdark font-worksans font-medium text-[18px]'
+                className='text-textdark font-worksans font-medium text-[18px]'
               >
                 Features
               </Link>
@@ -132,7 +132,7 @@ export default function Nav() {
               <Link
                 href='/'
                 onClick={() => setOpen(false)}
-                className='text-textlight dark:text-textdark font-worksans font-medium text-[18px]'
+                className='text-textdark font-worksans font-medium text-[18px]'
               >
                 Services
               </Link>
@@ -142,7 +142,7 @@ export default function Nav() {
               <Link
                 href='/'
                 onClick={() => setOpen(false)}
-                className='text-textlight dark:text-textdark font-worksans font-medium text-[18px]'
+                className='text-textdark font-worksans font-medium text-[18px]'
               >
                 FAQs
               </Link>
