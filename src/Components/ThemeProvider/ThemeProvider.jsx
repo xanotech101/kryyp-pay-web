@@ -29,7 +29,7 @@ export default function ThemeProvider({ children }) {
     <>
       <button
         onClick={toggleTheme}
-        className="fixed top-4 right-4 px-3 py-1 bg-gray-200 dark:bg-gray-700 rounded z-50"
+        className="fixed top-20 right-4 px-3 py-1 bg-gray-200 dark:bg-gray-700 rounded z-50"
       >
          {theme === 'dark' ? <FiSun /> : <FaMoon />} 
       </button>
