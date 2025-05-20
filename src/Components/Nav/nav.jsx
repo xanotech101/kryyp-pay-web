@@ -10,7 +10,7 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className='fixed bg-lightbg dark:bg-darkbg w-full px-5 py-4 xl:relative z-50'>
+    <nav className='fixed bg-lighbg dark:bg-darkbg w-full px-5 py-4 xl:relative z-50'>
       <div className='flex justify-between items-center max-w-[1440px] bg-lightbg dark:bg-darkbg mx-auto'>
         
         <div>

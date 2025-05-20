@@ -63,7 +63,7 @@ const footer = () => {
                 <img src='/Playstore.svg' alt='logo' className='w-[20px] h-[20px]' />
                 <div className='flex flex-col justify-center items-start'>
                   <p className='text-[10px] font-worksans font-light text-black'>Get the App</p>
-                  <p className='text-[14px] dark:text-textdark font-worksans font-medium text-black'>Google Play</p>
+                  <p className='text-[14px] font-worksans font-medium text-black'>Google Play</p>
                 </div>
               </button>
 
@@ -72,7 +72,7 @@ const footer = () => {
                 <img src='/Appleblack.svg' alt='logo' className='w-[20px] h-[20px]' />
                 <div className='flex flex-col justify-center items-start'>
                   <p className='text-[10px] font-worksans font-light text-black'>Get the App</p>
-                  <p className='text-[14px] dark:text-textdark font-worksans font-medium text-black'>AppleStore</p>
+                  <p className='text-[14px] font-worksans font-medium text-black'>AppleStore</p>
                 </div>
               </button>
             </div>
