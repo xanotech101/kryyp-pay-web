@@ -48,7 +48,7 @@ const Services = () => {
             <div data-aos="fade-up"
             data-aos-duration="500"
             data-aos-easing="ease-in-sine" className="flex justify-between items-center bg-[#25282E] px-4 py-4">
-              <p className="text-textlight dark:text-textdark font-medium text-[16px]">{item.question}</p>
+              <p className="text-textdark font-medium text-[16px]">{item.question}</p>
               <span className="text-xl text-universal">
                 {openIndex === index ? '-' : '+'}
               </span>
