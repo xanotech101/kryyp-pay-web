@@ -21,7 +21,7 @@ const About = () => {
         <img
           src="/about.svg"
           alt=""
-          className=" w-[550px] h-auto"
+          className=" md:w-[550px] h-auto"
 data-aos="fade-up"
             data-aos-duration="500"
             data-aos-easing="ease-in-sine"
