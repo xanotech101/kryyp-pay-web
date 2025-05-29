@@ -89,7 +89,7 @@ export default function Nav() {
         }`}
       >
         <div className='flex justify-between items-center px-5 py-4 border-b border-gray-300 dark:border-gray-600'>
-          <h2 className='font-bold text-xl text-textlight dark:text-textdark'>Menu</h2>
+          <h2 className='font-bold text-xl text-textdark'>Menu</h2>
           <IoClose
             size={30}
             className='cursor-pointer text-textlight dark:text-textdark'
