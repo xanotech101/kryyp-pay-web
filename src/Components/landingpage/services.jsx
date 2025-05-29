@@ -1,18 +1,25 @@
-// "use client"
+"use client"
 import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 
 const services = () => {
+    useEffect(() => {
+          AOS.init();
+        }, []);
   return (
-    <div className='flex flex-col justify-center items-center bg-white dark:bg-black px-4 md:px-15 pt-20 md:pt-32 max-w-[1440px] mx-auto'>
-        <p className="bg-[#3805F250] px-4 py-1 font-worksans text-universal text-[14px] rounded-[80px] font-medium">
+    <div className='flex flex-col justify-center items-center gap-5 bg-white dark:bg-black px-4 md:px-15 pt-20 md:pt-32 max-w-[1440px] mx-auto'>
+        <p className="bg-[#3805F250] px-4 py-1 font-worksans text-universal text-[12px] md:text-[14px] rounded-[80px] font-medium">
           Services
         </p>
 
-          <p className="text-textlight dark:text-textdark text-center font-dmsans font-normal text-[18px]">
+          <p className="text-textlight dark:text-textdark text-center font-dmsans font-normal text-[16px] md:text-[18px]">
          One App, endless possibilities for <span className='text-universal'>Crypto Transactions</span>
         </p>
 
-         <h2 className="text-[40px] text-center font-semibold font-worksans text-textlight dark:text-textdark">
+         <h2 className="text-[30px] md:text-[40px] text-center font-semibold font-worksans text-textlight dark:text-textdark">
          Deposit, send, convert, and withdraw your crypto seamlessly—all in one secure and easy-to-use platform.
         </h2>
 
@@ -23,15 +30,17 @@ const services = () => {
       <img src="/services/servicesdark.svg" alt="" className='py-10 hidden dark:block'/>
 
 
-      <div className="bg-cover bg-center h-[100%] w-full flex flex-col xl:flex-row gap-5 justify-center items-center "
+      <div className="bg-cover bg-center h-[100%] w-full flex flex-col xl:flex-row gap-5 rounded-[30px] justify-center items-center "
          style={{ backgroundImage: "url('/joinbanner.svg')" }}>
 
 
-            <div className='flex flex-col gap-5 justify-center items-center xl:items-start px-10'>
-            <h1 className='text-[50px] text-textdark text-center xl:text-start font-worksans font-semibold'>
+            <div data-aos="fade-down"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine" className='flex flex-col gap-5 justify-center items-center xl:items-start px-10'>
+            <h1 className='md:text-[50px] text-[30px] text-textdark text-center xl:text-start font-worksans font-semibold'>
              Join the Future of Crypto Payments!
             </h1>
-            <p className='text-[24px] text-textdark text-center md:text-start font-worksans font-medium'>
+            <p className='text-[20px] md:text-[24px] text-textdark text-center md:text-start font-worksans font-medium'>
               Join over 100,000 users who trust KRYPPAY for their crypto transactions. Sign up today and experience the future of crypto payments!
             </p>
 
@@ -57,7 +66,9 @@ const services = () => {
 
 
 
-            <img src="/iphone.svg" alt="" />
+            <img src="/iphone.svg" alt="" data-aos="fade-down"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine" />
            
 
       </div>

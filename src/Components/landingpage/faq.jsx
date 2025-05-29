@@ -1,7 +1,14 @@
 "use client"
 import React, { useState } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 
 const Services = () => {
+     useEffect(() => {
+          AOS.init();
+        }, []);
   const faqq = [
     { question: "What is KRYPPAY?", answer: "KRYPPAY is a secure and user-friendly cryptocurrency platform for buying, selling, and managing digital assets." },
     { question: "Is KRYPPAY available worldwide?", answer: "Yes, KRYPPAY is accessible globally, though features may vary by country." },
@@ -18,7 +25,7 @@ const Services = () => {
   };
 
   return (
-    <div className='flex flex-col justify-center items-center bg-white dark:bg-black px-4 md:px-15 pt-32 max-w-[1440px] mx-auto'>
+    <div className='flex flex-col gap-5 justify-center items-center bg-white dark:bg-black px-4 md:px-15 pt-32 max-w-[1440px] mx-auto'>
       <p className="bg-[#3805F250] px-4 py-1 font-worksans text-universal text-[14px] rounded-[80px] font-medium">
         FAQs
       </p>
@@ -38,7 +45,9 @@ const Services = () => {
             className="w-full max-w-[700px] border-b border-gray-200 dark:border-gray-700 cursor-pointer"
             onClick={() => toggleIndex(index)}
           >
-            <div className="flex justify-between items-center py-4">
+            <div data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine" className="flex justify-between items-center bg-[#25282E] px-4 py-4">
               <p className="text-textlight dark:text-textdark font-medium text-[16px]">{item.question}</p>
               <span className="text-xl text-universal">
                 {openIndex === index ? '-' : '+'}
