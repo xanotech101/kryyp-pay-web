@@ -60,7 +60,7 @@ const features = () => {
                     </div>
                 </div>
 
-                <hr className='w-[100%] text-[#D5D7DA]' />
+                    
 
             </div>
 

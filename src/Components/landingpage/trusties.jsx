@@ -82,7 +82,7 @@ const Trusties = () => {
         </div>
         <div
           ref={imgSet2Ref}
-          className="absolute top-0 left-0 flex flex-row items-center justify-evenly hidden md:block gap-10"
+          className="absolute top-0 left-0 md:flex flex-row items-center justify-evenly hidden gap-10"
         >
           {images.map((img, index) => (
             <img key={`b-${index}`} src={img.src} alt="" className="md:w-[140px] w-[100px] h-[28px] md:h-[45px]" />

@@ -42,19 +42,20 @@ const Services = () => {
         {faqq.map((item, index) => (
           <div
             key={index}
-            className="w-full max-w-[700px] border-b border-gray-200 dark:border-gray-700 cursor-pointer"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
+            className="w-full max-w-[700px] bg-[#25282E40] rounded-[16px]  cursor-pointer"
             onClick={() => toggleIndex(index)}
           >
-            <div data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-easing="ease-in-sine" className="flex justify-between items-center bg-[#25282E] px-4 py-4 ">
-              <p className="text-textdark font-medium text-[16px]">{item.question}</p>
-              <span className="text-xl text-textdark">
+            <div  className="flex justify-between items-center px-4 py-4 ">
+              <p className="dark:text-textdark text-textlight font-medium text-[16px]">{item.question}</p>
+              <span className="text-xl text-textlight dark:text-textdark">
                 {openIndex === index ? '-' : '+'}
               </span>
             </div>
             {openIndex === index && (
-              <p className="text-sm text-textdark bg-[#25282E] pb-4 transition-all px-4 duration-300">
+              <p className="text-sm text-textlight dark:text-textdark  pb-4 transition-all px-4 duration-300">
                 {item.answer}
               </p>
             )}
