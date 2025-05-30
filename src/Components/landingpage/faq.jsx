@@ -25,7 +25,7 @@ const Services = () => {
   };
 
   return (
-    <div className='flex flex-col gap-5 justify-center items-center bg-white dark:bg-black px-4 md:px-15 pt-32 max-w-[1440px] mx-auto'>
+    <div className='flex flex-col gap-5 justify-center items-center bg-white dark:bg-black px-4 md:px-15 pt-32 max-w-[1440px] mx-auto pb-10'>
       <p className="bg-[#3805F250] px-4 py-1 font-worksans text-universal text-[14px] rounded-[80px] font-medium">
         FAQs
       </p>
@@ -47,7 +47,7 @@ const Services = () => {
           >
             <div data-aos="fade-up"
             data-aos-duration="500"
-            data-aos-easing="ease-in-sine" className="flex justify-between items-center bg-[#25282E] px-4 py-4">
+            data-aos-easing="ease-in-sine" className="flex justify-between items-center bg-[#25282E] px-4 py-4 ">
               <p className="text-textdark font-medium text-[16px]">{item.question}</p>
               <span className="text-xl text-textdark">
                 {openIndex === index ? '-' : '+'}
