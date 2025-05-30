@@ -92,7 +92,7 @@ export default function Nav() {
           <h2 className='font-bold text-xl text-textdark'>Menu</h2>
           <IoClose
             size={30}
-            className='cursor-pointer text-textlight dark:text-textdark'
+            className='cursor-pointer text-textdark'
             onClick={() => setOpen(false)}
           />
         </div>

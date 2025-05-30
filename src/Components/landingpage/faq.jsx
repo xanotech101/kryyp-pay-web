@@ -49,12 +49,12 @@ const Services = () => {
             data-aos-duration="500"
             data-aos-easing="ease-in-sine" className="flex justify-between items-center bg-[#25282E] px-4 py-4">
               <p className="text-textdark font-medium text-[16px]">{item.question}</p>
-              <span className="text-xl text-universal">
+              <span className="text-xl text-textdark">
                 {openIndex === index ? '-' : '+'}
               </span>
             </div>
             {openIndex === index && (
-              <p className="text-sm text-gray-600 dark:text-gray-400 pb-4 transition-all duration-300">
+              <p className="text-sm text-textdark bg-[#25282E] pb-4 transition-all px-4 duration-300">
                 {item.answer}
               </p>
             )}

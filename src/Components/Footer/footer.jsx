@@ -8,7 +8,7 @@ import Link from 'next/link';
 const footer = () => {
   return (
     <div className='flex flex-col justify-center items-center bg-universal gap-10 py-10 px-4 md:px-15 max-w-[1440px] mx-auto'>
-        <div className='flex flex-col xl:flex-row justify-between gap-10 items-center md:items-start' >
+        <div className='flex flex-col xl:flex-row justify-between xl:gap-52 md:gap-36  gap-10 items-start' >
             <div className='flex flex-col justify-between items-start'>
                 <img src="/KRYPPAYdark.svg" alt="" />
                 <p className='md:w-[486px] text-start text-white font-worksans text-[16px] '>Simplifying crypto payments for everyone. Send, receive, and convert crypto effortlessly with KRYPPAY—secure, fast, and reliable.</p>
