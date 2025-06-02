@@ -3,6 +3,10 @@ import React from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { MdOutlineAddBox } from "react-icons/md";
+import { RiArrowUpBoxLine } from "react-icons/ri";
+import { GrTransaction } from "react-icons/gr";
+import { BsDashSquare } from "react-icons/bs";
 
 
 const services = () => {
@@ -26,8 +30,61 @@ const services = () => {
        
 
 
-      <img src="/services/serviceimage.svg" alt="" className='py-10 dark:hidden'/>
-      <img src="/services/servicesdark.svg" alt="" className='py-10 hidden dark:block'/>
+      <img src="/servicesimgesm.svg" alt="" className='py-10 md:hidden dark:hidden'/>
+      <img src="/services/serviceimage.svg" alt="" className='py-10 dark:hidden hidden md:block'/>
+      <img src="/servicesimgesm.svg" alt="" className='py-10 dark:block dark:md:hidden hidden'/>
+      <img src="/services/servicesdark.svg" alt="" className='py-10 hidden dark:md:block dark:hidden'/>
+
+      <div className='flex flex-col md:flex-row gap-5 justify-center items-center w-full max-w-[1200px] md:hidden'>
+         <div className="flex flex-row gap-5 items-start md:items-center">
+                    <div className='w-[50px] h-[50px] rounded-[50%] bg-[#A9A9A950] flex justify-center items-center'>
+                          <MdOutlineAddBox className='text-universal dark:text-textdark'/>
+                    </div>
+                    <div className='flex flex-col gap-1'>
+                      <h2 className='text-textlight dark:text-textdark font-worksans font-semibold text-[20px] '>Deposit</h2>
+                       <p className="text-textlight dark:text-textdark font-worksans font-medium text-[15px] ">
+                     Fund your wallet in seconds with supported cryptocurrencies.
+                    </p>
+                    </div>
+                   
+                  </div>
+        
+                  <div className="flex flex-row gap-5 items-start">
+                  <div className='w-[50px] h-[50px] rounded-[50%] bg-[#A9A9A950] flex justify-center items-center'>
+                          <RiArrowUpBoxLine  className='text-universal dark:text-textdark'/>
+                    </div>
+                     <div className='flex flex-col gap-1'>
+                      <h2 className='text-textlight dark:text-textdark font-worksans font-semibold text-[20px] '>Send</h2>
+                       <p className="text-textlight dark:text-textdark font-worksans font-medium text-[15px] ">
+                      Transfer crypto instantly to any wallet address worldwide.
+                    </p>
+                    </div>
+                  </div>
+        
+                  <div className="flex flex-row gap-5 items-start">
+                  <div className='w-[50px] h-[50px] rounded-[50%] bg-[#A9A9A950] flex justify-center items-center'>
+                          <GrTransaction className='text-universal dark:text-textdark'/>
+                    </div>
+                     <div className='flex flex-col gap-1'>
+                      <h2 className='text-textlight dark:text-textdark font-worksans font-semibold text-[20px] '>Convert</h2>
+                       <p className="text-textlight dark:text-textdark font-worksans font-medium text-[15px] ">
+                      Swap your crypto to naira instantly at the best market rates.
+                    </p>
+                    </div>
+                  </div>
+
+                   <div className="flex flex-row gap-5 items-start">
+                  <div className='w-[50px] h-[50px] rounded-[50%] bg-[#A9A9A950] flex justify-center items-center'>
+                          <BsDashSquare className='text-universal dark:text-textdark'/>
+                    </div>
+                     <div className='flex flex-col gap-1'>
+                      <h2 className='text-textlight dark:text-textdark font-worksans font-semibold text-[20px] '>Withdraw</h2>
+                       <p className="text-textlight dark:text-textdark font-worksans font-medium text-[15px] ">
+                     Move your funds from KRYPPAY to another wallet with ease.
+                    </p>
+                    </div>
+                  </div>
+      </div>
 
 
       <div className="bg-cover bg-center h-[100%] w-full flex flex-col xl:flex-row gap-5 rounded-[30px] justify-center items-center "
@@ -68,7 +125,13 @@ const services = () => {
 
             <img src="/iphone.svg" alt="" data-aos="fade-down"
             data-aos-duration="500"
-            data-aos-easing="ease-in-sine" />
+            data-aos-easing="ease-in-sine" 
+            className='dark:hidden'/>
+
+             <img src="/iPhonedark.svg" alt="" data-aos="fade-down"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine" 
+            className='hidden dark:block'/>
            
 
       </div>
