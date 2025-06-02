@@ -45,7 +45,7 @@ const Services = () => {
             data-aos="fade-up"
             data-aos-duration="500"
             data-aos-easing="ease-in-sine"
-            className="w-full max-w-[700px] bg-[#25282E40] rounded-[16px]  cursor-pointer"
+            className="w-full max-w-[700px] bg-[#F7F9FA] dark:bg-[#25282E] rounded-[16px]  cursor-pointer"
             onClick={() => toggleIndex(index)}
           >
             <div  className="flex justify-between items-center px-4 py-4 ">
