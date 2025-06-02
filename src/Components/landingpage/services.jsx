@@ -35,7 +35,7 @@ const services = () => {
       <img src="/servicesimgesm.svg" alt="" className='py-10 dark:block dark:md:hidden hidden'/>
       <img src="/services/servicesdark.svg" alt="" className='py-10 hidden dark:md:block dark:hidden'/>
 
-      <div className='flex flex-col md:flex-row gap-5 justify-center items-center w-full max-w-[1200px] md:hidden'>
+      <div className='flex flex-col md:flex-row gap-5 justify-center items-start w-full max-w-[1200px] md:hidden'>
          <div className="flex flex-row gap-5 items-start md:items-center">
                     <div className='w-[50px] h-[50px] rounded-[50%] bg-[#A9A9A950] flex justify-center items-center'>
                           <MdOutlineAddBox className='text-universal dark:text-textdark'/>
@@ -87,7 +87,7 @@ const services = () => {
       </div>
 
 
-      <div className="bg-cover bg-center h-[100%] w-full flex flex-col xl:flex-row gap-5 rounded-[30px] justify-center items-center "
+      <div className="bg-cover bg-center h-[100%] w-full flex flex-col xl:flex-row gap-5 rounded-[30px] justify-center items-center py-10 md:py-0 "
          style={{ backgroundImage: "url('/joinbanner.svg')" }}>
 
 

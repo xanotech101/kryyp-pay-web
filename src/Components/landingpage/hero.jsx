@@ -23,7 +23,7 @@ const Hero = () => {
           <div  className='flex flex-col gap-5 items-center text-center'>
             <p  data-aos="fade-down"
             data-aos-duration="500"
-            data-aos-easing="ease-in-sine"  className='md:w-[321px] md:h-[30px] rounded-[15px] bg-[#3805F250] text-universal text-[10px] md:text-[14px] font-worksans font-medium place-content-center  py-3 md:px-0 md:py-0'>
+            data-aos-easing="ease-in-sine"  className='md:w-[321px] h-[30px] w-[187px] rounded-[15px] bg-[#3805F250] text-universal text-[10px] md:text-[14px] font-worksans font-medium place-content-center'>
               Future of cryptocurrency
             </p>
             <h1 data-aos="fade-right"
