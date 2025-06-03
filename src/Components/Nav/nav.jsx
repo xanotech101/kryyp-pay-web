@@ -22,32 +22,32 @@ export default function Nav() {
         <ul className='hidden lg:flex gap-10 text-lg'>
           
             <li>
-              <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px]'>
+              <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px] hover:text-universal'>
                 Home
               </Link>
             </li>
 
 
             <li>
-              <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px]'>
+              <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px] hover:text-universal'>
                 About us
               </Link>
             </li>
 
             <li>
-              <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px]'>
+              <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px] hover:text-universal'>
                 Features
               </Link>
             </li>
 
             <li>
-              <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px]'>
+              <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px] hover:text-universal'>
                 Services
               </Link>
             </li>
 
             <li>
-              <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px]'>
+              <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px] hover:text-universal'>
                 FAQs
               </Link>
             </li>
@@ -67,7 +67,7 @@ export default function Nav() {
               <option>FR</option>
             </select>
           </div> */}
-          <button className='bg-universal w-[160px] h-[50px] text-white rounded-[15px] text-[18px]'>
+          <button className='bg-universal w-[160px] h-[50px] hover:bg-[#2603A4] cursor-pointer  text-white rounded-[15px] text-[18px]'>
             Contact Us
           </button>
         </div>

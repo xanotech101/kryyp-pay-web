@@ -27,9 +27,9 @@ const features = () => {
 
             <div className="flex flex-col gap-5 items-center">
                 <div data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-easing="ease-in-sine" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 ">
-                    <div className="flex flex-col gap-5 items-center shadow bg-lighbg dark:bg-[#3805F210] p-5 rounded-lg">
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 ">
+                    <div className="flex flex-col gap-5 items-center shadow hover:shadow-2xl bg-lighbg dark:bg-[#3805F210] p-5 rounded-lg">
                         <img src="/features/fastbit.svg" alt="" className='w-[50px] h-[50px]' />
                         <h2 className="md:text-[20px] text-[18px] font-semibold font-worksans text-textlight dark:text-textdark">
                             Fast Crypto-to-Naira Swap
@@ -39,7 +39,7 @@ const features = () => {
                         </p>
                     </div>
 
-                    <div className="flex flex-col gap-5 items-center shadow bg-lighbg dark:bg-[#3805F210] p-5 rounded-lg">
+                    <div className="flex flex-col gap-5 items-center shadow bg-lighbg hover:shadow-2xl dark:bg-[#3805F210] p-5 rounded-lg">
                         <img src="/features/card.svg" alt="" className='w-[50px] h-[50px]' />
                         <h2 className="md:text-[20px] text-[18px] font-semibold font-worksans text-textlight dark:text-textdark">
                             Virtual Card
@@ -49,7 +49,7 @@ const features = () => {
                         </p>
                     </div>
 
-                    <div className="flex flex-col gap-5 items-center shadow bg-lighbg dark:bg-[#3805F210] p-5 rounded-lg">
+                    <div className="flex flex-col gap-5 items-center shadow bg-lighbg hover:shadow-2xl dark:bg-[#3805F210] p-5 rounded-lg">
                         <img src="/features/pay.svg" alt="" className='w-[50px] h-[50px]' />
                         <h2 className="md:text-[20px] text-[18px] font-semibold font-worksans text-textlight dark:text-textdark">
                             Pay with crypto anywhere
@@ -58,16 +58,10 @@ const features = () => {
                             Use KRYPPAY to pay directly with crypto for services, shoppings, purchases and more.
                         </p>
                     </div>
-                </div>
+                
 
-                    
 
-            </div>
-
-            <div data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-easing="ease-in-sine" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
-                <div  className="flex flex-col gap-5 items-center shadow bg-lighbg dark:bg-[#3805F210] p-5 rounded-lg">
+                <div  className="flex flex-col gap-5 items-center shadow bg-lighbg hover:shadow-2xl dark:bg-[#3805F210] p-5 rounded-lg">
                     <img src="/features/security.svg" alt="" className='w-[50px] h-[50px]' />
                     <h2 className="md:text-[20px] text-[18px] font-semibold font-worksans text-textlight dark:text-textdark">
                         Advanced Security
@@ -77,7 +71,7 @@ const features = () => {
                     </p>
                 </div>
 
-                <div className="flex flex-col gap-5 items-center shadow bg-lighbg dark:bg-[#3805F210] p-5 rounded-lg">
+                <div className="flex flex-col gap-5 items-center shadow bg-lighbg hover:shadow-2xl dark:bg-[#3805F210] p-5 rounded-lg">
                     <img src="/features/support.svg" alt="" className='w-[50px] h-[50px]' />
                     <h2 className="md:text-[20px] text-[18px] font-semibold font-worksans text-textlight dark:text-textdark">
                         Multicurrency support
@@ -87,7 +81,7 @@ const features = () => {
                     </p>
                 </div>
 
-                <div className="flex flex-col gap-5 items-center shadow bg-lighbg dark:bg-[#3805F210] p-5 rounded-lg">
+                <div className="flex flex-col gap-5 items-center shadow bg-lighbg hover:shadow-2xl dark:bg-[#3805F210] p-5 rounded-lg">
                     <img src="/features/customer.svg" alt="" className='w-[50px] h-[50px]' />
                     <h2 className="md:text-[20px] text-[18px] font-semibold font-worksans text-textlight dark:text-textdark">
                         Customer Support
@@ -95,6 +89,7 @@ const features = () => {
                     <p className="text-textlight text-center dark:text-textdark font-worksans font-medium text-[13px] md:text-[16px]">
                         Get round-the-clock assistance whenever you need it.
                     </p>
+                </div>
                 </div>
             </div>
         </div>
