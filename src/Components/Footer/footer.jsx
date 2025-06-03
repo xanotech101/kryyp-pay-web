@@ -37,10 +37,10 @@ const footer = () => {
                   <div className='flex flex-col gap-5 justify-center items-start'>
                     <h2 className='font-medium font-worksans text-white text-[18px]'>Links</h2>
                     <ul className='flex flex-col gap-5'>
-                        <li><Link rel="stylesheet"  href=" " className='font-normal font-worksans text-white text-[16px]'>About us</Link></li>
-                        <li><Link rel="stylesheet" href="" className='font-normal font-worksans text-white text-[16px]'>Features</Link></li>
-                        <li><Link rel="stylesheet" href="" className='font-normal font-worksans text-white text-[16px]'>Services</Link></li>
-                        <li><Link rel="stylesheet" href="" className='font-normal font-worksans text-white text-[16px]'>Why Kryppay</Link></li>
+                        <li><Link rel="stylesheet"  href="#about" className='font-normal font-worksans text-white text-[16px]'>About us</Link></li>
+                        <li><Link rel="stylesheet" href="#features" className='font-normal font-worksans text-white text-[16px]'>Features</Link></li>
+                        <li><Link rel="stylesheet" href="#services" className='font-normal font-worksans text-white text-[16px]'>Services</Link></li>
+                        <li><Link rel="stylesheet" href="#faq" className='font-normal font-worksans text-white text-[16px]'>Why Kryppay</Link></li>
                     </ul>
                 </div>
 

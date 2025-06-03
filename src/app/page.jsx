@@ -9,14 +9,29 @@ import Footer from '@/Components/Footer/footer'
 
 export default function Home() {
   return (
-    <div>
-      <Hero />
-      <Trusties />
+    <div className="scroll-smooth">
+      <div id="hero">
+         <Hero />
+      </div>
+     
+     <div id="trusties" >
+        <Trusties />
+      </div>
+      <div id="about" >
       <About />
+      </div>
+      <div id="features" >
       <Features />
+      </div>
+      <div id="services">
       <Services />
+      </div>
+      <div id="faq" >
       <Faq />
+      </div>
+      <div id='footer' >
       <Footer />  
+      </div>
     </div>
   );
 }

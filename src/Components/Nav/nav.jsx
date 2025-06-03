@@ -29,25 +29,25 @@ export default function Nav() {
 
 
             <li>
-              <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px] hover:text-universal'>
+              <Link href='#about' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px] hover:text-universal'>
                 About us
               </Link>
             </li>
 
             <li>
-              <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px] hover:text-universal'>
+              <Link href='#features' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px] hover:text-universal'>
                 Features
               </Link>
             </li>
 
             <li>
-              <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px] hover:text-universal'>
+              <Link href='#services' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px] hover:text-universal'>
                 Services
               </Link>
             </li>
 
             <li>
-              <Link href='/' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px] hover:text-universal'>
+              <Link href='#faq' className='text-textlight dark:text-textdark font-worksans font-medium text-[20px] hover:text-universal'>
                 FAQs
               </Link>
             </li>
@@ -110,7 +110,7 @@ export default function Nav() {
 
              <li>
               <Link
-                href='/'
+                href='#about'
                 onClick={() => setOpen(false)}
                 className='text-textdark font-worksans font-medium text-[18px]'
               >
@@ -120,7 +120,7 @@ export default function Nav() {
 
              <li>
               <Link
-                href='/'
+                href='#features'
                 onClick={() => setOpen(false)}
                 className='text-textdark font-worksans font-medium text-[18px]'
               >
@@ -130,7 +130,7 @@ export default function Nav() {
 
              <li>
               <Link
-                href='/'
+                href='#services'
                 onClick={() => setOpen(false)}
                 className='text-textdark font-worksans font-medium text-[18px]'
               >
@@ -140,7 +140,7 @@ export default function Nav() {
 
              <li>
               <Link
-                href='/'
+                href='#faq'
                 onClick={() => setOpen(false)}
                 className='text-textdark font-worksans font-medium text-[18px]'
               >
