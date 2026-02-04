@@ -23,7 +23,7 @@ const Hero = () => {
           <div  className='flex flex-col gap-5 items-center text-center'>
             <p  data-aos="fade-down"
             data-aos-duration="500"
-            data-aos-easing="ease-in-sine"  className='md:w-[321px] h-[30px] w-[187px] rounded-[15px] bg-[#3805F250] text-universal text-[10px] md:text-[14px] font-worksans font-medium place-content-center'>
+            data-aos-easing="ease-in-sine"  className='md:w-[321px] h-[30px] w-[187px] rounded-[15px] bg-[#3805F250] text-universal dark:text-white text-[10px] md:text-[14px] font-worksans font-medium place-content-center'>
               Future of cryptocurrency
             </p>
             <h1 data-aos="fade-right"
@@ -59,10 +59,10 @@ const Hero = () => {
             </div>
           </div>
 
-          <img src="/heroimage.svg" alt="" data-aos="fade-up"
+          <img src="/hero1.svg" alt="" data-aos="fade-up"
             data-aos-duration="300"
             data-aos-easing="ease-in-sine" className='w-full h-[40vh] md:h-[60%] dark:hidden mt-10 md:mt-0' />
-          <img src="/herodark.svg" alt="" data-aos="fade-up"
+          <img src="/herodark1.svg" alt="" data-aos="fade-up"
             data-aos-duration="300"
             data-aos-easing="ease-in-sine" className='w-full h-[40vh] md:h-[60%] hidden dark:block mt-10 md:mt-0' />
         </div>

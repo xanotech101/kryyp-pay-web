@@ -14,8 +14,8 @@ export default function Nav() {
       <div className='flex justify-between items-center max-w-[1440px] bg-lightbg dark:bg-darkbg mx-auto'>
         
         <div>
-          <img src='/KRYPPAYlogo.svg' alt='logo' width={100} height={100} className='dark:hidden' />
-          <img src='/KRYPPAYdark.svg' alt='logo' width={100} height={100} className='hidden dark:block' />
+          <img src='/logo1.svg' alt='logo' width={100} height={100}  className='dark:hidden' />
+          <img src='/logodark1.svg' alt='logo' width={100} height={100} className='hidden dark:block' />
         </div>
 
       

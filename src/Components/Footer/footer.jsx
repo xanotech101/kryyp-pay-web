@@ -10,8 +10,8 @@ const footer = () => {
     <div className='flex flex-col justify-center items-center bg-universal gap-10 py-10 px-4 md:px-15 max-w-[1440px] mx-auto'>
         <div className='flex flex-col xl:flex-row justify-between xl:gap-52 md:gap-36  gap-10 items-start' >
             <div className='flex flex-col gap-5 justify-between items-start'>
-                <img src="/KRYPPAYdark.svg" alt="" />
-                <p className='md:w-[486px] text-start text-white font-worksans text-[16px] '>Simplifying crypto payments for everyone. Send, receive, and convert crypto effortlessly with KRYPPAY—secure, fast, and reliable.</p>
+                <img src="/KRYPPAY.png" alt="" width={150} height={150} />
+                <p className='md:w-[486px] text-start text-white font-worksans text-[16px] '>Simplifying crypto payments for everyone. Send, receive, and convert crypto effortlessly with KRYPAPP—secure, fast, and reliable.</p>
                 <div className='flex flex-row gap-5'>
                    <div className='w-[30px] h-[30px] rounded-[50%] bg-[#FFFFFF40] place-items-center place-content-center'>
                      <FaInstagram className='text-white'/>

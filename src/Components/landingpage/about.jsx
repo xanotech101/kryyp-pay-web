@@ -36,10 +36,10 @@ data-aos="fade-up"
           About us
         </p>
         <h2 className="md:text-[40px] text-[30px] font-semibold font-worksans text-textlight dark:text-textdark">
-          About <span className='text-universal'>KRYPPAY</span>
+          About <span className='text-universal'>KRYPAPP</span>
         </h2>
         <p className="text-textlight dark:text-textdark font-worksans font-medium text-[20px] md:text-[24px]">
-          <span className='text-universal'>KRYPPAY</span> is a fast and secure platform that enables seamless crypto-to-naira transactions for converting, receiving, or withdrawing cryptocurrency.
+          <span className='text-universal'>KRYPAPP</span> is a fast and secure platform that enables seamless crypto-to-naira transactions for converting, receiving, or withdrawing cryptocurrency.
         </p>
 
         <div className="flex flex-col gap-6">

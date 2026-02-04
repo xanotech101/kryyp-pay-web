@@ -10,12 +10,12 @@ const Services = () => {
           AOS.init();
         }, []);
   const faqq = [
-    { question: "What is KRYPPAY?", answer: "KRYPPAY is a secure and user-friendly cryptocurrency platform for buying, selling, and managing digital assets." },
-    { question: "Is KRYPPAY available worldwide?", answer: "Yes, KRYPPAY is accessible globally, though features may vary by country." },
-    { question: "Which cryptocurrencies are supported on KRYPPAY?", answer: "We support Bitcoin, Ethereum, and many other major cryptocurrencies." },
-    { question: "Is my personal information secure with KRYPPAY?", answer: "Absolutely. We use top-tier encryption and secure storage protocols." },
+    { question: "What is KRYPAPP?", answer: "KRYPAPP is a secure and user-friendly cryptocurrency platform for buying, selling, and managing digital assets." },
+    { question: "Is KRYPAPP available worldwide?", answer: "Yes, KRYPAPP is accessible globally, though features may vary by country." },
+    { question: "Which cryptocurrencies are supported on KRYPAPP?", answer: "We support Bitcoin, Ethereum, and many other major cryptocurrencies." },
+    { question: "Is my personal information secure with KRYPAPP?", answer: "Absolutely. We use top-tier encryption and secure storage protocols." },
     { question: "Are there any deposit or withdrawal fees?", answer: "Some transactions may incur minor network or service fees." },
-    { question: "Does KRYPPAY offer advanced trading tools?", answer: "Yes, including charting, limit orders, and performance tracking tools." },
+    { question: "Does KRYPAPP offer advanced trading tools?", answer: "Yes, including charting, limit orders, and performance tracking tools." },
   ];
 
   const [openIndex, setOpenIndex] = useState(null);
@@ -35,7 +35,7 @@ const Services = () => {
       </p>
 
       <h2 className="text-[40px] text-center font-semibold font-worksans text-textlight dark:text-textdark">
-        Learn more about KRYPPAY
+        Learn more about KRYPAPP
       </h2>
 
       <div className='flex flex-col items-center gap-4 mt-10 w-full'>

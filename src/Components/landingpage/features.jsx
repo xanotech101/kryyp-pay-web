@@ -55,7 +55,7 @@ const features = () => {
                             Pay with crypto anywhere
                         </h2>
                         <p className="text-textlight text-center dark:text-textdark font-worksans font-medium text-[13px] md:text-[16px]">
-                            Use KRYPPAY to pay directly with crypto for services, shoppings, purchases and more.
+                            Use KRYPAPP to pay directly with crypto for services, shoppings, purchases and more.
                         </p>
                     </div>
                 

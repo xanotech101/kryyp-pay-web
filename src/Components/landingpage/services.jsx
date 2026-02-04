@@ -31,9 +31,9 @@ const services = () => {
 
 
       <img src="/servicesimgesm.svg" alt="" className='py-10 md:hidden dark:hidden'/>
-      <img src="/services/serviceimage.svg" alt="" className='py-10 dark:hidden hidden md:block'/>
+      <img src="herolight1.svg" alt="" className='py-10 dark:hidden hidden md:block'/>
       <img src="/servicesimgesm.svg" alt="" className='py-10 dark:block dark:md:hidden hidden'/>
-      <img src="/services/servicesdark.svg" alt="" className='py-10 hidden dark:md:block dark:hidden'/>
+      <img src="herolight2.svg" alt="" className='py-10 hidden dark:md:block dark:hidden'/>
 
       <div className='flex flex-col md:flex-row gap-5 justify-center items-start w-full max-w-[1200px] md:hidden'>
          <div className="flex flex-row gap-5 items-start md:items-center">
