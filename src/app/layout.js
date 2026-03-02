@@ -14,6 +14,9 @@ import "./globals.css";
 export const metadata = {
   title: "Kryppay",
   description: "Crypto Extange app",
+  verification: {
+    google: "dDxEqruIpFCvRMcB9tXysVe4-jz45hs9bRCYw3y247o",
+  },
 };
 
 import Nav from '@/Components/Nav/nav'; 
