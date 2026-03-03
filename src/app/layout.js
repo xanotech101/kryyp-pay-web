@@ -15,7 +15,7 @@ export const metadata = {
   title: "Kryppay",
   description: "Crypto Extange app",
   verification: {
-    google: "dDxEqruIpFCvRMcB9tXysVe4-jz45hs9bRCYw3y247o",
+    google: "gzHa6EcS_SI0KMCc3bJW2a3V8V9bZ0MJx0fvQ6XnmRs",
   },
 };
 
