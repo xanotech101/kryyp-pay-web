@@ -1,0 +1,178 @@
+'use client';
+
+import Link from 'next/link';
+import { useState } from 'react';
+import { TbWorld } from "react-icons/tb";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IoClose } from 'react-icons/io5';
+
+export default function Nav() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <nav className='fixed bg-universal w-full px-5 py-4 xl:relative z-50'>
+      <div className='flex justify-between items-center max-w-[1440px] bg-universal  mx-auto'>
+        
+        <div>
+          {/* <img src='/logo1.svg' alt='logo' width={100} height={100}  className='dark:hidden' /> */}
+          <img src='/logodark1.svg' alt='logo' width={100} height={100} className='block' />
+        </div>
+
+      
+        <ul className='hidden lg:flex gap-10 text-lg'>
+          
+            <li>
+              <Link href='/' className='text-white font-worksans font-medium text-[20px] hover:text-universal'>
+                Home
+              </Link>
+            </li>
+
+
+            <li>
+              <Link href='#about' className='text-white font-worksans font-medium text-[20px] hover:text-universal'>
+                About us
+              </Link>
+            </li>
+
+            <li>
+              <Link href='#features' className='text-white font-worksans font-medium text-[20px] hover:text-universal'>
+                Features
+              </Link>
+            </li>
+
+            <li>
+              <Link href='#services' className='text-white font-worksans font-medium text-[20px] hover:text-universal'>
+                Services
+              </Link>
+            </li>
+
+            <li>
+              <Link href='#faq' className='text-white font-worksans font-medium text-[20px] hover:text-universal'>
+                FAQs
+              </Link>
+            </li>
+
+
+
+          
+        </ul>
+
+       
+        <div className='hidden lg:flex gap-5 items-center'>
+          {/* <div className='flex items-center gap-2'>
+            <TbWorld className='w-[24px] h-[24px] text-textlight dark:text-textdark' />
+            <select className='bg-transparent text-textlight dark:text-textdark font-worksans font-medium text-[20px] outline-none'>
+              <option>ENG</option>
+              <option>EN</option>
+              <option>FR</option>
+            </select>
+          </div> */}
+          <button className='bg-universal w-[160px] h-[50px] hover:bg-[#2603A4] cursor-pointer  text-white rounded-[15px] text-[18px]'>
+            Contact Us
+          </button>
+        </div>
+
+       
+        <div className='lg:hidden'>
+          <GiHamburgerMenu
+            size={25}
+            className='text-textlight dark:text-textdark place-items-center place-content-center cursor-pointer'
+            onClick={() => setOpen(true)}
+          />
+        </div>
+      </div>
+
+     
+      <div
+        className={`fixed top-0 right-0 h-full w-[75%] sm:w-[300px] bg-lightbg dark:bg-darkbg shadow-lg z-50 transform transition-transform duration-300 ${
+          open ? 'translate-x-0' : 'translate-x-full'
+        }`}
+      >
+        <div className='flex justify-between items-center px-5 py-4 border-b border-gray-300 dark:border-gray-600'>
+          <h2 className='font-bold text-xl text-textdark'>Menu</h2>
+          <IoClose
+            size={30}
+            className='cursor-pointer text-textdark'
+            onClick={() => setOpen(false)}
+          />
+        </div>
+
+        <ul className='flex flex-col gap-6 p-5 text-lg'>
+            <li>
+              <Link
+                href='/'
+                onClick={() => setOpen(false)}
+                className='text-textdark font-worksans font-medium text-[18px]'
+              >
+                Home
+              </Link>
+            </li>
+
+             <li>
+              <Link
+                href='#about'
+                onClick={() => setOpen(false)}
+                className='text-textdark font-worksans font-medium text-[18px]'
+              >
+                About us
+              </Link>
+            </li>
+
+             <li>
+              <Link
+                href='#features'
+                onClick={() => setOpen(false)}
+                className='text-textdark font-worksans font-medium text-[18px]'
+              >
+                Features
+              </Link>
+            </li>
+
+             <li>
+              <Link
+                href='#services'
+                onClick={() => setOpen(false)}
+                className='text-textdark font-worksans font-medium text-[18px]'
+              >
+                Services
+              </Link>
+            </li>
+
+             <li>
+              <Link
+                href='#faq'
+                onClick={() => setOpen(false)}
+                className='text-textdark font-worksans font-medium text-[18px]'
+              >
+                FAQs
+              </Link>
+            </li>
+
+         
+        </ul>
+
+        <div className='flex flex-col gap-4 px-5 mt-4'>
+          {/* <div className='flex items-center gap-2'>
+            <TbWorld className='w-[24px] h-[24px] text-textlight dark:text-textdark' />
+            <select className='bg-transparent text-textlight dark:text-textdark font-worksans font-medium text-[18px] outline-none'>
+              <option>ENG</option>
+              <option>EN</option>
+              <option>FR</option>
+            </select>
+          </div> */}
+          <button className='bg-white w-full h-[45px] text-universal rounded-[12px] text-[16px]'>
+            Contact Us
+          </button>
+        </div>
+      </div>
+
+     
+      {open && (
+        <div
+          className='fixed top-0 left-0 w-full h-full bg-black bg-opacity-40 z-40'
+          onClick={() => setOpen(false)}
+        />
+      )}
+    </nav>
+  );
+}

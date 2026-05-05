@@ -19,8 +19,8 @@ export const metadata = {
   },
 };
 
-import Nav from '@/Components/Nav/nav'; 
-import  ThemeProvider  from "@/Components/ThemeProvider/ThemeProvider"; 
+
+import ThemeProvider from "../component/ThemeProvider/ThemeProvider";
 
 export default function RootLayout({ children }) {
   return (
@@ -28,7 +28,6 @@ export default function RootLayout({ children }) {
   
       <body className="bg-lightbg dark:bg-darkbg">
          <ThemeProvider>
-        <Nav />
        {children}
         </ThemeProvider>
       </body>

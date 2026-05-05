@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import { FaInstagram } from "react-icons/fa";   
 import { RiFacebookBoxLine } from "react-icons/ri";
@@ -5,7 +7,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { FaXTwitter } from "react-icons/fa6";
 import Link from 'next/link';
 
-const footer = () => {
+const Footer = () => {
   return (
     <div className='flex flex-col justify-center items-center bg-universal gap-10 py-10 px-4 md:px-15 max-w-[1440px] mx-auto'>
         <div className='flex flex-col xl:flex-row justify-between xl:gap-52 md:gap-36  gap-10 items-start' >
@@ -32,7 +34,7 @@ const footer = () => {
             </div>
 
 
-            <div className='flex flex-col md:flex-row gap-10 justify-between items-start '>
+            <div className='flex flex-col md:flex-row gap-20 justify-between items-start '>
                 <div className='flex flex-row gap-10 '>
                   <div className='flex flex-col gap-5 justify-center items-start'>
                     <h2 className='font-medium font-worksans text-white text-[18px]'>Links</h2>
@@ -45,13 +47,22 @@ const footer = () => {
                 </div>
 
 
-                 <div className='flex flex-col gap-5 justify-center items-start'>
+                 <div className='flex flex-col gap-5 justify-start items-start'>
                     <h2 className='font-medium font-worksans text-white text-[18px]'>Support</h2>
                     <ul className='flex flex-col gap-5'>
                         <li><Link rel="stylesheet"  href=" " className='font-normal font-worksans text-white text-[16px]'>FAQs</Link></li>
                         <li><Link rel="stylesheet" href="" className='font-normal font-worksans text-white text-[16px]'>Help Center</Link></li>
-                        <li><Link rel="stylesheet" href="" className='font-normal font-worksans text-white text-[16px]'>Terms & Conditions</Link></li>
-                        <li><Link rel="stylesheet" href="" className='font-normal font-worksans text-white text-[16px]'>Privacy Policy </Link></li>
+                       
+                    </ul>
+                </div>
+
+
+                 <div className='flex flex-col gap-5 justify-start items-start'>
+                    <h2 className='font-medium font-worksans text-white text-[18px]'>Legal</h2>
+                    <ul className='flex flex-col gap-5'>
+                        <li><Link rel="stylesheet" href="./privacy-and-policy" className='font-normal font-worksans text-white text-[16px]'>Privacy Policy</Link></li>
+                        <li><Link rel="stylesheet" href="./account-deletion" className='font-normal font-worksans text-white text-[16px]'>Account Deletion</Link></li>
+                        <li><Link rel="stylesheet" href="./data-policy" className='font-normal font-worksans text-white text-[16px]'>Data Policy </Link></li>
                     </ul>
                 </div>
                 </div>
@@ -91,4 +102,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer

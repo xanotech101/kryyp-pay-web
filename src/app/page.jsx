@@ -1,15 +1,17 @@
 'use client'
-import Hero from '@/Components/landingpage/hero';
-import Trusties from '@/Components/landingpage/trusties';
-import About from '@/Components/landingpage/about';
-import Features from '@/Components/landingpage/features';
-import Services from '@/Components/landingpage/services';
-import Faq from '@/Components/landingpage/faq'
-import Footer from '@/Components/Footer/footer'
+import Hero from '../component/landingpage/hero';
+import Trusties from '../component/landingpage/trusties';
+import About from '../component/landingpage/about';
+import Features from '../component/landingpage/features';
+import Services from '../component/landingpage/services';
+import Faq from '../component/landingpage/faq'
+import Footer from '../component/footer/footer'
+import Nav from '../component/nav/nav';
 
 export default function Home() {
   return (
     <div className="scroll-smooth">
+      <Nav />
       <div id="hero">
          <Hero />
       </div>
